@@ -39,10 +39,9 @@ Please download the weights from [GoogleDrive](https://drive.google.com/drive/fo
 
 ### Test
 
-```GUI
+GUI
 Run a2sgui.bat
 ![image](https://user-images.githubusercontent.com/33694664/232089698-5059f523-981b-4003-be01-0988a0db0a15.png)
-
 
 ```Shell
 python3 test.py --dataroot /your_input/dir --load_size 512 --output_dir /your_output/dir
