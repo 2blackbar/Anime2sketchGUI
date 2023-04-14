@@ -7,6 +7,7 @@ By [Xiaoyu Xiang](https://engineering.purdue.edu/people/xiaoyu.xiang.1)
 
 
 ## Updates
+- 2023.4.14: Add GUI
 - 2022.1.14: Add Docker environment by [**kitoria**](https://github.com/kitoriaaa)
 - 2021.12.25: Update README. Merry Christmas!
 - 2021.5.24: Fix an interpolation error and a GPU inference error.
@@ -37,6 +38,12 @@ Install the required packages: ```pip install -r requirements.txt```
 Please download the weights from [GoogleDrive](https://drive.google.com/drive/folders/1Srf-WYUixK0wiUddc9y3pNKHHno5PN6R?usp=sharing), and put it into the [weights/](weights/) folder.
 
 ### Test
+
+```GUI
+Run a2sgui.bat
+![image](https://user-images.githubusercontent.com/33694664/232089698-5059f523-981b-4003-be01-0988a0db0a15.png)
+
+
 ```Shell
 python3 test.py --dataroot /your_input/dir --load_size 512 --output_dir /your_output/dir
 ```
